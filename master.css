@@ -1,0 +1,75 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container{
+  width: 750px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  border-radius: 20px;
+  font-family: Georgia;
+}
+
+.content, .commandBar{
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.title{
+  text-align: center;
+  color: rgba(0,221,0,1);
+}
+
+.title img{
+  width: 250px;
+  margin-top: 50px;
+}
+
+.commandBar{
+  height:40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: rgba(0,221,0,1);
+}
+
+.content{
+    color: white;
+    display: inline-block;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+
+.content .posizione:before{
+  content: "\2192";
+}
+
+.content h3{
+  display: inline;
+}
+
+.content section{
+  margin-top: 20px;
+}
+
+#carica1{
+  width: 230px;
+  height: 35px;
+  background-color: orange;
+  border-radius: 10px;
+}
+
+#carica2{
+  width: 50px;
+  height: 35px;
+  background-color: red;
+  border-radius: 10px;
+}
+
+#carica3{
+  width: 600px;
+  height: 35px;
+  background-color: green;
+  border-radius: 10px;
+}
